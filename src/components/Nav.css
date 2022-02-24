@@ -1,0 +1,19 @@
+.navbar {
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  padding-right: 2%;
+  padding-top: 1%;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.socials {
+  padding-left: 1em;
+}
+
+.github {
+  margin-left: 0.3em;
+}
