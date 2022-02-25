@@ -1,10 +1,10 @@
 import "./Contact.css";
 import { Button } from "@mui/material";
-import { Fade } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 
 const Contact = () => {
   return (
-    <Fade>
+    <Bounce>
       <div className="container">
         <div className="email">
           <h1 id="contact">Contact Agent Botell:</h1>
@@ -46,7 +46,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </Fade>
+    </Bounce>
   );
 };
 

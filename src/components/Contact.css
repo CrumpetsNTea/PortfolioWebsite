@@ -20,9 +20,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgb(255, 255, 255);
-  height: 25em;
-  width: 35em;
+  background: #ffffff;
+  height: 28em;
+  width: 52em;
   border-radius: 1%;
 }
 
@@ -36,17 +36,18 @@
 }
 
 .message-form {
-  width: 23.7em;
+  width: 23.9em;
   border-radius: 2%;
   font-family: "Raleway", sans-serif;
   border: 2px solid rgb(126, 126, 126);
 }
 
 .email-container {
-  padding-left: 1em;
+  padding-left: 1.9em;
 }
 
 .form-control {
+  margin-top: 1em;
   height: 2em;
   border-radius: 5%;
   border: 2px solid rgb(126, 126, 126);
