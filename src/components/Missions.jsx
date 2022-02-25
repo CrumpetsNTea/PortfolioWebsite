@@ -7,8 +7,8 @@ import { Slide, Fade } from "react-awesome-reveal";
 const Missions = () => {
   return (
     <>
-      <Fade triggerOnce direction="right" duration={2000}>
-        <div className="info-container">
+      <div className="info-container">
+        <Fade triggerOnce direction="right" duration={1500}>
           <ReactRoundedImage
             image={headshot}
             imageWidth="550"
@@ -31,8 +31,8 @@ const Missions = () => {
               </button>
             </div>
           </div>
-        </div>
-      </Fade>
+        </Fade>
+      </div>
 
       <br></br>
       <br></br>

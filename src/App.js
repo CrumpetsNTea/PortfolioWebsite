@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Missions from "./components/Missions";
 import Contact from "./components/Contact";
+import { Slide } from "react-awesome-reveal";
 
 function App() {
   return (
