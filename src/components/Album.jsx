@@ -99,12 +99,6 @@ const Album = () => {
                   <Button
                     size="small"
                     variant="contained"
-                    href="https://secretlurrysociety.eth.link/">
-                    Website
-                  </Button>
-                  <Button
-                    size="small"
-                    variant="contained"
                     href="https://github.com/CrumpetsNTea/scheduler">
                     Github
                   </Button>
@@ -138,13 +132,6 @@ const Album = () => {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
-                    // backgroundColor="#838fa3"
-                    size="small"
-                    variant="contained"
-                    href="https://secretlurrysociety.eth.link/">
-                    Website
-                  </Button>
                   <Button
                     size="small"
                     variant="contained"
@@ -182,13 +169,6 @@ const Album = () => {
                 </CardContent>
                 <CardActions>
                   <Button
-                    // backgroundColor="#838fa3"
-                    size="small"
-                    variant="contained"
-                    href="https://secretlurrysociety.eth.link/">
-                    Website
-                  </Button>
-                  <Button
                     size="small"
                     variant="contained"
                     href="https://github.com/CrumpetsNTea/Map-API-Midterm">
@@ -224,13 +204,6 @@ const Album = () => {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
-                    // backgroundColor="#838fa3"
-                    size="small"
-                    variant="contained"
-                    href="https://secretlurrysociety.eth.link/">
-                    Website
-                  </Button>
                   <Button
                     size="small"
                     variant="contained"
@@ -268,13 +241,6 @@ const Album = () => {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button
-                    // backgroundColor="#838fa3"
-                    size="small"
-                    variant="contained"
-                    href="https://secretlurrysociety.eth.link/">
-                    Website
-                  </Button>
                   <Button
                     size="small"
                     variant="contained"
