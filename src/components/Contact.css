@@ -10,7 +10,6 @@
 #contact {
   margin: 0;
   padding-bottom: 0.5em;
-  text-align: center;
   color: rgb(109, 109, 109);
 }
 
@@ -36,19 +35,20 @@
 }
 
 .message-form {
-  width: 23.9em;
+  width: 39em;
   border-radius: 2%;
   font-family: "Raleway", sans-serif;
   border: 2px solid rgb(126, 126, 126);
 }
 
 .email-container {
-  padding-left: 1.9em;
+  padding-left: 2em;
 }
 
 .form-control {
   margin-top: 1em;
-  height: 2em;
+  height: 3em;
+  width: 18em;
   border-radius: 5%;
   border: 2px solid rgb(126, 126, 126);
 }
