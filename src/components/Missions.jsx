@@ -1,6 +1,5 @@
 import "./Missions.css";
 import Album from "./Album";
-import ReactRoundedImage from "react-rounded-image";
 import headshot from "../images/Tobias_Bond.png";
 import { Slide, Fade } from "react-awesome-reveal";
 
@@ -9,14 +8,8 @@ const Missions = () => {
     <>
       <div className="info-container">
         <Fade triggerOnce direction="right" duration={1500}>
-          <ReactRoundedImage
-            image={headshot}
-            imageWidth="550"
-            imageHeight="550"
-            roundedSize="8"
-            borderRadius="500"
-            roundedColor="#292929"
-          />
+          <img src={headshot} className="me" alt="me"></img>
+
           <div className="info-and-button">
             <h3 id="introduction">
               The name's Botell, Tobias Botell. <br /> <br />
