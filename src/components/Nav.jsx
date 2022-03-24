@@ -1,7 +1,7 @@
 import { SocialIcon } from "react-social-icons";
 import "./Nav.css";
 import ReactAudioPlayer from "react-audio-player";
-import Spy from "../images/007  - James Bond  - Theme.mp3";
+import Spy from "../images/sound/cool-jazz-loops-2641.mp3";
 import { Navbar } from "react-bootstrap";
 
 const Nav = () => {
@@ -22,7 +22,7 @@ const Nav = () => {
       </div>
 
       <div>
-        <ReactAudioPlayer id="player" src={Spy} autoPlay={true} controls />
+        <ReactAudioPlayer id="player" src={Spy} autoPlay={false} controls />
       </div>
     </Navbar>
   );
