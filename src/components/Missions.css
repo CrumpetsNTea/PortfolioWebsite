@@ -117,7 +117,52 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+  .me {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+  }
+
+  .info-container {
+    padding-top: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+  }
+
+  .info-and-button {
+    padding-top: 5em;
+    width: 100%;
+    font-size: 12px;
+    padding-right: 2em;
+  }
+
+  .button {
+    margin-left: 32%;
+  }
+
+  .previous-missions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 1.5em;
+  }
+
+  .missions-container {
+    margin-left: 7%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 799px) {
   .me {
     width: 450px;
     height: 450px;

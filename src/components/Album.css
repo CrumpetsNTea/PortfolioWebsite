@@ -2,6 +2,12 @@
   box-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
+/* #album-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 /* .MuiButton-root {
   background-image: url("../images/bluegrey.png");
 } */

@@ -17,3 +17,9 @@
 .github {
   margin-left: 0.3em;
 }
+
+/* @media screen and (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
+} */
