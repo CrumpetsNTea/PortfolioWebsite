@@ -116,8 +116,52 @@ a {
   color: inherit;
   text-decoration: none;
 }
+@media screen and (max-width: 420px) {
+  .me {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+  }
 
-@media screen and (max-width: 500px) {
+  .info-container {
+    padding-top: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+  }
+
+  .info-and-button {
+    padding-top: 5em;
+    width: 100%;
+    font-size: 12px;
+    padding-right: 2em;
+  }
+
+  .button {
+    margin-left: 32%;
+  }
+
+  .previous-missions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 32%;
+  }
+
+  .missions-container {
+    margin-left: 7%;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 499px) {
   .me {
     width: 100%;
     height: 100%;
@@ -162,7 +206,7 @@ a {
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 799px) {
+@media screen and (min-width: 500px) and (max-width: 799px) {
   .me {
     width: 450px;
     height: 450px;

@@ -67,7 +67,48 @@ textarea::placeholder {
   width: 100%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
+  #contact {
+    font-size: 2.3em;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .email-container {
+    padding-left: 0;
+  }
+
+  .message-form {
+    width: 20em;
+    border-radius: 2%;
+    font-family: "Raleway", sans-serif;
+    border: 2px solid rgb(126, 126, 126);
+  }
+
+  .form-control {
+    width: 20em;
+  }
+
+  .email {
+    padding-left: 3.9em;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ffffff;
+    height: 30em;
+    width: 105%;
+    border-radius: 1%;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 449px) {
   #contact {
     font-size: 2.3em;
   }
@@ -95,7 +136,7 @@ textarea::placeholder {
   }
 
   .email {
-    margin-left: 1.8em;
+    padding-left: 2em;
     margin-bottom: 2em;
     display: flex;
     align-items: center;
@@ -103,12 +144,12 @@ textarea::placeholder {
     flex-direction: column;
     background: #ffffff;
     height: 28em;
-    width: 28em;
+    width: 105%;
     border-radius: 1%;
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 499px) {
+@media screen and (min-width: 450px) and (max-width: 499px) {
   #contact {
     font-size: 2.3em;
   }
@@ -136,6 +177,8 @@ textarea::placeholder {
   }
 
   .email {
+    padding-left: 1.8em;
+
     margin-bottom: 2em;
     display: flex;
     flex-direction: column;

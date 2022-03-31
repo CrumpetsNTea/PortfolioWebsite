@@ -44,7 +44,7 @@ const Missions = () => {
       <br></br>
       <Slide triggerOnce>
         <div className="previous-missions" id="previous-missions">
-          <h1>Previous Missions</h1>
+          <h1 classname="mission-title">Previous Missions</h1>
         </div>
         <div className="missions-container">
           <div>
